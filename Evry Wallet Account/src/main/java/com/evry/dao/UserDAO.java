@@ -29,7 +29,7 @@ public class UserDAO {
 	public long login(User dto) {
 		
 		Session session = sf.openSession();
-		String qry ="select count(*) from UserDTO where uUserName=:uUserName and uPassword=:uPassword";
+		String qry ="select count(*) from User where uUserName=:uUserName and uPassword=:uPassword";
 		
 		 Query query = session.createQuery(qry);
 		query.setParameter("uUserName", dto.getuUserName());

@@ -11,6 +11,6 @@
         <property name="connection.password">Arpithavs@24</property>
         <property name="show_sql">true</property>
         <property name="hbm2ddl.auto">update</property>
-       <mapping class="com.evry.dto.UserDTO"/>
+       <mapping class="com.evry.dto.User"/>
     </session-factory>
 </hibernate-configuration>
